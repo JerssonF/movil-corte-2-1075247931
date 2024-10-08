@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Campo Código de la Actividad -->
+    <EditText
+        android:id="@+id/editTextCodigoActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código de la Actividad"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Campo Fecha -->
+    <EditText
+        android:id="@+id/editTextFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha"
+        android:inputType="date"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Campo Nombre -->
+    <EditText
+        android:id="@+id/editTextNombreActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la Actividad"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Campo Descripción -->
+    <EditText
+        android:id="@+id/editTextDescripcionActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para Guardar Actividad -->
+    <Button
+        android:id="@+id/buttonGuardarActividad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Actividad"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
