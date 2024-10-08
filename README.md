@@ -1,8 +1,8 @@
 ## Parcial II corte Programación Móvil.
 
 * [Layout_Android](AppActividad1075247931)
-* [Evidencias_pdf](Evidencia.pdf)
-* [Parte-1-Parcial](parte-1-numero-1075247931.pdf)
+* [Evidencias_pdf](Evidencia_pdf)
+* [Parte-1-Parcial](parte-1-numero-1075247931)
 
 
 Planteamiento del Ejercicio
