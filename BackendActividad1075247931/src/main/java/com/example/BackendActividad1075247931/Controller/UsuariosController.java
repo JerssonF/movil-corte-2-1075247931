@@ -1,5 +1,8 @@
 package com.example.BackendActividad1075247931.Controller;
 
+
+import com.example.BackendActividad1075247931.Entity.Usuarios;
+import com.example.BackendActividad1075247931.IService.IUsuariosService;
 import com.example.BackendActividad1075247931.Entity.Usuarios;
 import com.example.BackendActividad1075247931.IService.IUsuariosService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,4 +43,5 @@ public class UsuariosController {
     public void Delete(@PathVariable Long id) {
         usuarioService.Delete(id);
     }
+
 }
